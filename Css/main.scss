@@ -1,0 +1,52 @@
+@import url(./header/header.css);
+@import url(./sectionTop/sectionMid.css);
+@import url(./sectionMid/sectionMid.css);
+@import url(./sectionBottom/sectionBottom.css);
+@import url(./group19/group19.css);
+$btn--blue: #616ae8;
+$btn--green: #20e5a7;
+$background--page: #f2f2f2;
+$pink: #fbe9e9;
+$green: #e7faf9;
+$purple: #f5ecfd;
+$blue: #e7effb;
+$color_text-button: #ffffff;
+$color_text: #7e7fa0;
+$color_text-title: #2e2a41;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+// title
+.wrapper {
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: $color_text-title;
+    .title--textColor {
+      color: #5e68f9;
+    }
+  }
+  .top--desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: $color_text;
+    padding-top: 18px;
+  }
+}

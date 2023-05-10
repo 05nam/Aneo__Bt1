@@ -1,0 +1,138 @@
+$btn--blue: #616ae8;
+$btn--green: #20e5a7;
+$background--page: #f2f2f2;
+$background--sectionBottom: #fcf3ec;
+$pink: #fbe9e9;
+$green: #e7faf9;
+$purple: #f5ecfd;
+$blue: #e7effb;
+$color_text-button: #ffffff;
+$color_text: #7e7fa0;
+$color_text-title: #2e2a41;
+
+.sectionBottom {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .sectionBottom--bg {
+    padding-top: 90px;
+    background-color: $background--sectionBottom;
+    border-radius: 25px;
+  }
+}
+
+// sectionBottom__bottom
+
+.sectionBottom__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 70px 70px 60px;
+  .item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 28px;
+    max-width: calc(33.33% - 30px);
+    background-color: $background--page;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    .item--icon {
+    }
+    .content--title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: $color_text-title;
+    }
+    .content--desc {
+      padding-top: 5px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: $color_text;
+    }
+  }
+}
+
+.item {
+  .item--icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .icon-border {
+    border-radius: 5px;
+    border: 3px solid;
+    width: 34px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.icon--bg1 {
+  background-color: #fff0f0;
+
+  .icon-1 {
+    border-color: #fd9b9b;
+    .fa-solid {
+      color: #fd9b9b;
+    }
+  }
+}
+.icon--bg2 {
+  background-color: #f3e9fd;
+
+  .icon-2 {
+    border-color: #b06bf1;
+    .fa-solid {
+      color: #b06bf1;
+    }
+  }
+}
+.icon--bg3 {
+  background-color: #e3f8fa;
+
+  .icon-3 {
+    border-color: #45ccdb;
+    .fa-solid {
+      color: #45ccdb;
+    }
+  }
+}
+.icon--bg4 {
+  background-color: #e5e6fd;
+
+  .icon-4 {
+    border-color: #545cf0;
+    .fa-solid {
+      color: #545cf0;
+    }
+  }
+}
+.icon--bg5 {
+  background-color: #fde9f3;
+
+  .icon-5 {
+    border-color: #f16bac;
+    .fa-solid {
+      color: #f16bac;
+    }
+  }
+}
+.icon--bg6 {
+  background-color: #e4fae6;
+
+  .icon-6 {
+    border-color: #48de57;
+    .fa-solid {
+      color: #48de57;
+    }
+  }
+}

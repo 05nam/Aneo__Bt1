@@ -1,0 +1,133 @@
+$btn--blue: #616ae8;
+$btn--green: #20e5a7;
+$background--page: #f2f2f2;
+$pink: #fbe9e9;
+$green: #e7faf9;
+$purple: #f5ecfd;
+$blue: #e7effb;
+$color_text-button: #ffffff;
+$color_text: #7e7fa0;
+$color_text-title: #2e2a41;
+
+// navbar
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 40px 23px 40px;
+  align-items: center;
+  color: $color_text;
+  .navbar__logo {
+    padding: 0;
+    .navbar__logo--img {
+      max-height: 55px;
+      object-fit: cover;
+    }
+  }
+
+  .navbar__links--menu ul {
+    li {
+      margin-left: 65px;
+      list-style: none;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: $color_text;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+      }
+    }
+  }
+  .navbar__links--button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 37px;
+  }
+}
+
+// hover nav link
+.navbar__links--menu ul {
+  li:hover {
+    scale: 1.2;
+    transition: 0.25s;
+  }
+}
+// btn
+.btnx {
+  outline: none;
+  padding: 16px;
+  border-radius: 13px;
+  border: none;
+  text-align: center;
+  line-height: 23px;
+  a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: none;
+    color: $color_text-button;
+  }
+}
+.btnx:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.btnx:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.btn--blue {
+  background-color: $btn--blue;
+  margin-right: 15px;
+}
+.btn--green {
+  background-color: $btn--green;
+}
+
+// ------------sectionTop------------
+.section__top {
+  max-width: 1309px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  padding-top: 80px;
+  .item {
+    max-width: calc(25% - 30px);
+    // max-width: 25%;
+    margin-left: 30px;
+    .item--title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: $color_text-title;
+    }
+    .item--desc {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 26px;
+      color: $color_text;
+      padding-top: 35px;
+    }
+  }
+}
+
+// maxwidth 767
+@media screen and (max-width: 767px) {
+  .btnx {
+    width: 100%;
+    margin-right: 0;
+  }
+  .btn--blue {
+    margin-bottom: 12px;
+  }
+  .navbar .navbar__links--menu ul li a {
+    text-align: center;
+  }
+}

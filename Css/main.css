@@ -1,0 +1,38 @@
+@import url(./header/header.css);
+@import url(./sectionTop/sectionMid.css);
+@import url(./sectionMid/sectionMid.css);
+@import url(./sectionBottom/sectionBottom.css);
+@import url(./group19/group19.css);
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #2e2a41;
+}
+.wrapper .title .title--textColor {
+  color: #5e68f9;
+}
+.wrapper .top--desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7e7fa0;
+  padding-top: 18px;
+}/*# sourceMappingURL=main.css.map */

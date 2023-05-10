@@ -1,0 +1,125 @@
+$btn--blue: #616ae8;
+$btn--green: #20e5a7;
+$background--page: #f2f2f2;
+$pink: #fbe9e9;
+$green: #e7faf9;
+$purple: #f5ecfd;
+$blue: #e7effb;
+$color_text-button: #ffffff;
+$color_text: #7e7fa0;
+$color_text-title: #2e2a41;
+
+.sectionMid {
+  padding-top: 80px;
+  padding-right: 85px;
+  padding-left: 85px;
+  position: relative;
+  z-index: 1;
+
+  .sectionMid__bottom {
+    padding-top: 130px;
+
+    width: 100%;
+    display: flex;
+    .sectionMid__bottom--left {
+      width: 50%;
+      margin-right: 55px;
+      position: relative;
+      .left--outframe {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        background: #f0f9fe;
+        border-radius: 0px 48px 48px 0px;
+        left: -84px;
+        top: 50%;
+        transform: translateY(-55%);
+        z-index: -1;
+      }
+      .left--img {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+      }
+    }
+    .sectionMid__bottom--right {
+      width: 50%;
+      .right--icon {
+        font-size: 75px;
+        color: #5e68f9;
+        margin-bottom: 15px;
+        padding-left: 30px;
+        i {
+          border: 8px solid #5e68f9;
+          border-radius: 15px;
+          padding: 15px;
+        }
+      }
+      .right--desc {
+        padding-top: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $color_text;
+      }
+      .right--sign {
+        padding-top: 40px;
+        padding-left: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        color: $color_text-title;
+        position: relative;
+      }
+      .right--dot {
+        display: flex;
+        margin-top: 60px;
+        align-items: center;
+        .dot-item {
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background-color: #e8e8eb;
+          margin-right: 16px;
+        }
+        .dot-highlight {
+          background-color: $btn--blue;
+          width: 21px;
+          height: 21px;
+        }
+      }
+    }
+  }
+}
+
+.right--sign:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 11px;
+  width: 20px;
+  height: 1px;
+  background-color: $color_text;
+  transform: translateY(-50%);
+}
+.sectionMid__bottom--right {
+  .right--icon span {
+    position: relative;
+  }
+  .right--icon span::before {
+    content: "";
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #fdf1e7;
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: -50%;
+    transform: translateX(25%);
+    z-index: -1;
+  }
+}

@@ -1,0 +1,118 @@
+.sectionBottom {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sectionBottom .sectionBottom--bg {
+  padding-top: 90px;
+  background-color: #fcf3ec;
+  border-radius: 25px;
+}
+
+.sectionBottom__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 70px 70px 60px;
+}
+.sectionBottom__bottom .item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 28px;
+  max-width: calc(33.33% - 30px);
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+}
+.sectionBottom__bottom .item .content--title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2e2a41;
+}
+.sectionBottom__bottom .item .content--desc {
+  padding-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7e7fa0;
+}
+
+.item .item--icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.item .icon-border {
+  border-radius: 5px;
+  border: 3px solid;
+  width: 34px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon--bg1 {
+  background-color: #fff0f0;
+}
+.icon--bg1 .icon-1 {
+  border-color: #fd9b9b;
+}
+.icon--bg1 .icon-1 .fa-solid {
+  color: #fd9b9b;
+}
+
+.icon--bg2 {
+  background-color: #f3e9fd;
+}
+.icon--bg2 .icon-2 {
+  border-color: #b06bf1;
+}
+.icon--bg2 .icon-2 .fa-solid {
+  color: #b06bf1;
+}
+
+.icon--bg3 {
+  background-color: #e3f8fa;
+}
+.icon--bg3 .icon-3 {
+  border-color: #45ccdb;
+}
+.icon--bg3 .icon-3 .fa-solid {
+  color: #45ccdb;
+}
+
+.icon--bg4 {
+  background-color: #e5e6fd;
+}
+.icon--bg4 .icon-4 {
+  border-color: #545cf0;
+}
+.icon--bg4 .icon-4 .fa-solid {
+  color: #545cf0;
+}
+
+.icon--bg5 {
+  background-color: #fde9f3;
+}
+.icon--bg5 .icon-5 {
+  border-color: #f16bac;
+}
+.icon--bg5 .icon-5 .fa-solid {
+  color: #f16bac;
+}
+
+.icon--bg6 {
+  background-color: #e4fae6;
+}
+.icon--bg6 .icon-6 {
+  border-color: #48de57;
+}
+.icon--bg6 .icon-6 .fa-solid {
+  color: #48de57;
+}/*# sourceMappingURL=sectionBottom.css.map */
