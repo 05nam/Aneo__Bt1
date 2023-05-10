@@ -28,18 +28,18 @@ $color_text-title: #2e2a41;
       .left--outframe {
         width: 80%;
         height: 100%;
-        position: absolute;
         background: #f0f9fe;
         border-radius: 0px 48px 48px 0px;
         left: -84px;
         top: 50%;
         transform: translateY(-55%);
+        position: absolute;
         z-index: -1;
       }
       .left--img {
         width: 100%;
-        position: relative;
-        z-index: 2;
+        // position: relative;
+        // z-index: 2;
       }
     }
     .sectionMid__bottom--right {

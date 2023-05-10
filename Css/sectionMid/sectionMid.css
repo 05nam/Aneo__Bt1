@@ -18,18 +18,16 @@
 .sectionMid .sectionMid__bottom .sectionMid__bottom--left .left--outframe {
   width: 80%;
   height: 100%;
-  position: absolute;
   background: #f0f9fe;
   border-radius: 0px 48px 48px 0px;
   left: -84px;
   top: 50%;
   transform: translateY(-55%);
+  position: absolute;
   z-index: -1;
 }
 .sectionMid .sectionMid__bottom .sectionMid__bottom--left .left--img {
   width: 100%;
-  position: relative;
-  z-index: 2;
 }
 .sectionMid .sectionMid__bottom .sectionMid__bottom--right {
   width: 50%;

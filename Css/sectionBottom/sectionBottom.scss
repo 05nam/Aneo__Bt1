@@ -27,9 +27,10 @@ $color_text-title: #2e2a41;
 .sectionBottom__bottom {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px 70px 70px 60px;
+  padding: 40px 70px 70px 70px;
+  margin-left: -30px;
   .item {
-    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 30px;
     padding: 28px;
     max-width: calc(33.33% - 30px);
